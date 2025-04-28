@@ -1,0 +1,25 @@
+package atividade;
+import java.util.Scanner;
+public class Pagina36_A {
+	public static void main(String[] args) {
+		Scanner in = new Scanner(System.in);
+		
+		double salarioMinimo;
+		
+		System.out.println("Informe o valor do seu salario: ");
+		salarioMinimo= in.nextDouble();
+		
+		if (salarioMinimo < 1518) {
+			System.out.println("O seu salário é menor que o salário mínimo   :( ");
+		}
+		else if (salarioMinimo == 1518) {
+			System.out.println("O seu salário é exatamente o valor do salário mínimo   :/ ");
+		}
+		else {
+			System.out.println("o seu slario é maior que o salário mínimo!   :) ");
+		}
+		
+		
+		
+	}
+}
