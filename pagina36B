@@ -1,0 +1,26 @@
+package atividade;
+
+	import java.util.Scanner;
+
+	public class Pagina36_B {
+		public static void main(String[] args) {
+			
+			Scanner in = new Scanner(System.in);
+			double numero;
+			
+			System.out.println("insira um numero: ");
+			numero = in.nextDouble();
+			
+			if (numero < 0) {
+				System.out.println("seu numero é negativo");
+			}
+			else if (numero == 0) {
+				System.out.println("seu numero é neutro");
+			}
+			else {
+				System.out.println("seu numero é positivo");
+			}
+			
+			in.close();
+		}
+}
